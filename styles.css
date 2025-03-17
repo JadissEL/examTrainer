@@ -1,0 +1,216 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.case-study {
+    margin-bottom: 4rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.graphs-container {
+    display: grid;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.questions-groups > div {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+canvas {
+    min-height: 500px !important;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.graph-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.company-data {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+.question {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.options {
+    display: grid;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+.results {
+    margin-top: 2rem;
+}
+
+.result-item {
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.result-item.correct {
+    background: #dcfce7;
+    border: 1px solid #86efac;
+}
+
+.result-item.incorrect {
+    background: #fee2e2;
+    border: 1px solid #fca5a5;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: 2rem 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+.section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+pre {
+    white-space: pre-wrap;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+  }
+
+  .case-study {
+      margin-bottom: 2rem;
+  }
+
+  .case-study-header {
+      cursor: pointer;
+      padding: 1rem;
+      background: #f8f9fa;
+      border-radius: 8px;
+  }
+
+  .case-study-content {
+      display: none;
+      padding: 2rem;
+  }
+
+  .charts-container canvas {
+      min-height: 400px;
+      margin: 2rem 0;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  /* Add your existing styles here */
+  .graph-container.stacked {
+      width: 100%;
+      max-width: 1000px;
+      height: 500px;
+      margin: 2rem auto;
+      padding: 2rem;
+  }
+
+  .graph-container.product-comparison {
+      width: 100%;
+      max-width: 1000px;
+      height: 500px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .graph-container.plant-production {
+      width: 100%;
+      max-width: 1000px;
+      height: 500px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
